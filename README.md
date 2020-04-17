@@ -35,7 +35,7 @@ Once all the dependencies are installed type ```python app.py``` to run the appl
 Takes in 3 Parameters
 1. username(String)
 2. password(String)
-3. isadmin(0 if you want to register as an admin and 1 if you are not an admin) 
+3. isadmin(1 if you want to register as an admin and 0 if you are not an admin) 
 
 The admin password is **/20#admin@covid**
 
