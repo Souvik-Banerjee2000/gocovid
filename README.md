@@ -30,7 +30,7 @@ Once all the dependencies are installed type ```python app.py``` to run the appl
 
 1.***/register*** :-
 
-  * Only Post Request is allowed *
+  *Post Request is allowed *
 
 Takes in 3 Parameters
 1. username(String)
@@ -42,7 +42,7 @@ The admin password is **/20#admin@covid**
 
 2.***/login*** :-
 
-  * Only Post Request is allowed *
+  * Post Request is allowed *
 
 Takes in 2 Parameters
 1. username(String)
