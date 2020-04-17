@@ -69,6 +69,7 @@ so it needes to be refreshed by the refresh token. ~~
   (Access Token Required)
   [POST request is allowed]
   ### Required paramaeters:-
+  
   1. home_town (type = string), throws error message if not provided (error meseeage = 'home_town must be provided')
   2. OutingNo (type = int) , throws error message if not provided
   3. RatioOut (type = int), throws error message if not provided
