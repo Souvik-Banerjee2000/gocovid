@@ -55,17 +55,17 @@ the access token is required to login again and in every endpoint however it is 
 so it needes to be refreshed by the refresh token.  *
 
 
-3.**/findme:-  **
+3.**/findme**
   (Access Token Required):-  
   [GET request is allowed]
   Returns their user name if the user is logged in else returns **return {'msg' :'User Does not exist'}  
 
-4. **/logout :- **
+4. **/logout**
   (Access Token Required)
   [POST request allowed]
   Blacklists user's current access token
 
-5.**/add  :- **
+5.**/add**
   (Access Token Required)
   [POST request is allowed]
   ### Required paramaeters:-
@@ -76,7 +76,7 @@ so it needes to be refreshed by the refresh token.  *
   4. RatioIn (type = int) ,throws error message if not provided
 Adds the information in the database , if the user is admin he can add as many posts as he wants however if he is not he can provide only one information(About his own)  
 
-6.**/refresh:-**
+6.**/refresh**
   [POST request is allowed]
   (Refresh token required)
   Refreshes the access token and provides a new access token
