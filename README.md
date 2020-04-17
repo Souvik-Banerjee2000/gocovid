@@ -28,7 +28,7 @@ Once all the dependencies are installed type ```python app.py``` to run the appl
 ### EndPoints In the api:-
 
 
-1. ***/register*** :-
+1.***/register*** :-
 
   * Only Post Request is allowed *
 
@@ -40,7 +40,7 @@ Takes in 3 Parameters
 The admin password is **/20#admin@covid**
 
 
-2. ***/login*** :-
+2.***/login*** :-
 
   * Only Post Request is allowed *
 
@@ -48,17 +48,17 @@ Takes in 2 Parameters
 1. username(String)
 2. password(String)
 
-~~
+*
 if valid credentials are provided it returns an unique aceess token and refresh token else returns **{'msg': 'No user with that username or password is wrong'}**
 so the users will have their unique access token and refresh token.
 the access token is required to login again and in every endpoint however it is destroyed after every 5 mins
-so it needes to be refreshed by the refresh token. ~~
+so it needes to be refreshed by the refresh token.  *
 
 
-3. **/findme:-  **
+3.**/findme:-  **
   (Access Token Required):-  
   [GET request is allowed]
-  Returns their user name if the user is logged in else returns **return {'msg' :'User Does not exist'}  **
+  Returns their user name if the user is logged in else returns **return {'msg' :'User Does not exist'}  
 
 4. **/logout :- **
   (Access Token Required)
